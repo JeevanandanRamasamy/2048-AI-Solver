@@ -1,7 +1,7 @@
 import flask
-import board
+from board import Board
 
 score = 0 # Used to keep track of current score
 highest_score = 0
 
-boardObj = board() #Board object for the game
+boardObj = Board() #Board object for the game
